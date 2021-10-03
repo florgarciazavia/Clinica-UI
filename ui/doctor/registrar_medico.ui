@@ -17,72 +17,188 @@
    <string notr="true">background-color: rgb(236, 236, 236);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>498</y>
-      <width>141</width>
+      <x>180</x>
+      <y>150</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nombre:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>100</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Apellido:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>260</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>DNI:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>300</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Especialidad:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>241</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Calibri</family>
+      <pointsize>22</pointsize>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>REGISTRAR MÉDICO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>200</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
       <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tipo DNI:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>350</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Mail:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>490</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Guardar Cobro</string>
+     <string>Registrar</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>110</y>
-      <width>151</width>
-      <height>20</height>
+      <x>600</x>
+      <y>490</y>
+      <width>101</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
-    <property name="text">
-     <string> Apellido Paciente</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>150</y>
-      <width>151</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Fecha de cobro</string>
+     <string>Cancelar</string>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>270</y>
-      <width>151</width>
+      <y>300</y>
+      <width>251</width>
       <height>22</height>
      </rect>
     </property>
@@ -91,59 +207,36 @@
     </property>
     <item>
      <property name="text">
-      <string>Efectivo</string>
+      <string>Clínica Médica</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Tarjeta de Credito</string>
+      <string>Traumatología</string>
      </property>
     </item>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>270</y>
-      <width>131</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Forma de Cobro</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>310</y>
-      <width>141</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Consulta a Cobrar</string>
-    </property>
+    <item>
+     <property name="text">
+      <string>Dermatología</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pediatría General</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ginecología</string>
+     </property>
+    </item>
    </widget>
    <widget class="QComboBox" name="comboBox_2">
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>310</y>
-      <width>151</width>
+      <y>200</y>
+      <width>251</width>
       <height>22</height>
      </rect>
     </property>
@@ -152,157 +245,17 @@
     </property>
     <item>
      <property name="text">
-      <string>Particular</string>
+      <string>DNI</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Obra Social</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>350</y>
-      <width>131</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Total a Cobrar</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>314</x>
-      <y>40</y>
-      <width>221</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>22</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>REGISTRAR COBRO</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>230</y>
-      <width>151</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Especialidad</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_3">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>230</y>
-      <width>151</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <item>
-     <property name="text">
-      <string>clinica medica</string>
+      <string>Cédula Identidad</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Traumatologia</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Ginecologia</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dermatologia</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Pediatria General</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QDateEdit" name="dateEdit">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>150</y>
-      <width>151</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>190</y>
-      <width>151</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Servicio Prestado</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_4">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>190</y>
-      <width>151</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <item>
-     <property name="text">
-      <string>Consulta</string>
+      <string>Pasaporte</string>
      </property>
     </item>
    </widget>
@@ -310,9 +263,9 @@
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>110</y>
-      <width>151</width>
-      <height>20</height>
+      <y>89</y>
+      <width>251</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -323,22 +276,48 @@
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>350</y>
-      <width>151</width>
-      <height>20</height>
+      <y>140</y>
+      <width>251</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QLineEdit" name="lineEdit_3">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>500</y>
-      <width>131</width>
+      <x>310</x>
+      <y>250</y>
+      <width>251</width>
       <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>340</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>400</y>
+      <width>121</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="font">
@@ -347,16 +326,25 @@
       <pointsize>14</pointsize>
      </font>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(170, 255, 255);</string>
-    </property>
     <property name="text">
-     <string>Cancelar</string>
+     <string>Teléfono:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>390</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
-  <widget class="QMenuBar" name="menuBar">
+  <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -380,6 +368,7 @@
    <addaction name="menuAjustes"/>
    <addaction name="menuAyuda"/>
   </widget>
+  <widget class="QStatusBar" name="statusbar"/>
   <action name="actionActualizar_informaci_n">
    <property name="text">
     <string>Actualizar información</string>
@@ -387,7 +376,7 @@
   </action>
   <action name="actionAcerca_de">
    <property name="text">
-    <string>Acerca de ...</string>
+    <string>Acerca de...</string>
    </property>
   </action>
  </widget>

@@ -20,21 +20,21 @@
    <string>Login</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 255);</string>
+   <string notr="true">background-color: rgb(236, 236, 236);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btnEnter">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>240</x>
       <y>340</y>
       <width>111</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 85, 255);
-font: 14pt &quot;Calibri&quot;; color: #ffffff;
+     <string notr="true">background-color: rgb(170, 255, 255);
+font: 14pt &quot;Calibri&quot;; color: #000000;
 border-color: rgb(0, 0, 255);</string>
     </property>
     <property name="text">
@@ -72,6 +72,9 @@ border-color: rgb(0, 0, 255);</string>
          <pointsize>16</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
       </widget>
      </item>
      <item row="1" column="0">
@@ -95,6 +98,9 @@ border-color: rgb(0, 0, 255);</string>
          <pointsize>16</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
       </widget>
      </item>
     </layout>
@@ -102,9 +108,9 @@ border-color: rgb(0, 0, 255);</string>
    <widget class="QLabel" name="lblUsername_2">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>140</x>
       <y>80</y>
-      <width>181</width>
+      <width>471</width>
       <height>32</height>
      </rect>
     </property>
@@ -115,21 +121,21 @@ border-color: rgb(0, 0, 255);</string>
      </font>
     </property>
     <property name="text">
-     <string>¡Bienvenido!</string>
+     <string>Bienvenido a la Clínica Cruz Azul</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnEnter_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>380</x>
       <y>340</y>
       <width>111</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 85, 255);
-font: 14pt &quot;Calibri&quot;; color: #ffffff;
+     <string notr="true">background-color: rgb(170, 255, 255);
+font: 14pt &quot;Calibri&quot;; color: #000000;
 border-color: rgb(0, 0, 255);</string>
     </property>
     <property name="text">
