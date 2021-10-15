@@ -142,6 +142,24 @@ border-color: rgb(0, 0, 255);</string>
      <string>Registrarse</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>410</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 11pt &quot;Calibri&quot;;
+text-decoration: underline;
+color: blue;</string>
+    </property>
+    <property name="text">
+     <string>¿Olvidaste tu contraseña?</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

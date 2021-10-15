@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>310</x>
       <y>60</y>
       <width>221</width>
       <height>31</height>
@@ -33,159 +33,18 @@
      <string>CONSULTAR MÉDICO</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>150</y>
-      <width>181</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Filtrar por Especialidad</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>160</y>
-      <width>181</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <item>
-     <property name="text">
-      <string>Clínica Médica</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Traumatología</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dermatología</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Pediatría General</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Ginecología</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>220</y>
-      <width>151</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Filtrar por Médico</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_2">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>220</y>
-      <width>181</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <item>
-     <property name="text">
-      <string>Dr Ramiro Ceballes</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dra Beatriz LLanos</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dra Laura Zavia</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dra Florencia Garcia</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dra Maria Cabrera</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dra Alejandra Carranza</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dr Juan Perez</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dr Jose Gonzalez</string>
-     </property>
-    </item>
-   </widget>
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
       <x>40</x>
       <y>280</y>
       <width>741</width>
-      <height>192</height>
+      <height>141</height>
      </rect>
     </property>
     <row>
      <property name="text">
-      <string>Medico :</string>
+      <string>+</string>
      </property>
     </row>
     <row>
@@ -225,7 +84,7 @@
     </column>
     <column>
      <property name="text">
-      <string>Telefono</string>
+      <string>Teléfono</string>
      </property>
     </column>
     <column>
@@ -240,7 +99,7 @@
     </column>
     <item row="0" column="0">
      <property name="text">
-      <string> Ramiro Adrian</string>
+      <string> Ramiro Adrián</string>
      </property>
     </item>
     <item row="0" column="1">
@@ -255,12 +114,12 @@
     </item>
     <item row="0" column="3">
      <property name="text">
-      <string>Clinica Medica</string>
+      <string>Clínica Médica</string>
      </property>
     </item>
     <item row="0" column="4">
      <property name="text">
-      <string>351 666333</string>
+      <string>351666333</string>
      </property>
     </item>
     <item row="0" column="5">
@@ -290,7 +149,7 @@
     </item>
     <item row="1" column="3">
      <property name="text">
-      <string>Clinica Medica</string>
+      <string>Clínica Médica</string>
      </property>
     </item>
     <item row="1" column="4">
@@ -310,7 +169,7 @@
     </item>
     <item row="2" column="0">
      <property name="text">
-      <string>Laura Anahi</string>
+      <string>Laura Anahí</string>
      </property>
     </item>
     <item row="2" column="1">
@@ -325,12 +184,12 @@
     </item>
     <item row="2" column="3">
      <property name="text">
-      <string>Dermatologia</string>
+      <string>Dermatología</string>
      </property>
     </item>
     <item row="2" column="4">
      <property name="text">
-      <string>3519993334</string>
+      <string>351999334</string>
      </property>
     </item>
     <item row="2" column="5">
@@ -345,12 +204,12 @@
     </item>
     <item row="3" column="0">
      <property name="text">
-      <string>Maria Florencia</string>
+      <string>María Florencia</string>
      </property>
     </item>
     <item row="3" column="1">
      <property name="text">
-      <string>Garcia</string>
+      <string>García</string>
      </property>
     </item>
     <item row="3" column="2">
@@ -360,7 +219,7 @@
     </item>
     <item row="3" column="3">
      <property name="text">
-      <string>Dermatologa</string>
+      <string>Dermatología</string>
      </property>
     </item>
     <item row="3" column="4">
@@ -382,8 +241,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>510</y>
+      <x>320</x>
+      <y>460</y>
       <width>131</width>
       <height>31</height>
      </rect>
@@ -400,6 +259,147 @@
     <property name="text">
      <string>Volver al menú</string>
     </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>150</y>
+      <width>191</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Filtrar por Especialidad</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Filtrar por Médico</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>150</y>
+      <width>231</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QComboBox" name="comboBox">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Clínica Médica</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Traumatología</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dermatología</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pediatría General</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ginecología</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Dr Ramiro Ceballes</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dra Beatriz LLanos</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dra Laura Zavia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dra Florencia García</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dra María Cabrera</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dra Alejandra Carranza</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dr Juan Perez</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dr Jose Gonzalez</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
